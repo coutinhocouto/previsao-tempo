@@ -5,7 +5,7 @@ function fetcher(url: string) {
   return window.fetch(url).then((res) => res.json());
 }
 
-const key = "42874a644192bf5e2946c73d3f2e90b8";
+const key = process.env.NEXT_PUBLIC_API_KEY;
 const url = "https://api.openweathermap.org";
 
 export function getCity(lat: number, lon: number) {
