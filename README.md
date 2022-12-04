@@ -12,6 +12,7 @@ yarn
 npm install
 ```
 
+Rode os comando para rodar a aplicação:
 
 ```bash
 npm run dev
